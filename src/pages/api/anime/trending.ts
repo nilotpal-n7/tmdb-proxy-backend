@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { tmdbFetch } from "@/app/lib/tmdb";
+import { tmdbFetch } from "@/pages/lib/tmdb";
 
 export default async function handler(_: NextApiRequest, res: NextApiResponse) {
   try {
