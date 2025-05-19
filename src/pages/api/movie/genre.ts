@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { tmdbFetch } from "@/pages/lib/tmdb";
+import { tmdbFetch } from "@/lib/tmdb";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { genreId } = req.query;
